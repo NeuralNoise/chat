@@ -1,0 +1,53 @@
+Array
+(
+    [1] => Array
+        (
+            [new] => 0
+            [current_dialog_id] => 39
+            [partner] => Array
+                (
+                    [uid] => 0
+                    [available] => 1
+                    [id] => 34
+                    [client_id] => f5kor6b402qj2vzw1e1
+                    [name] => Undefined-f5kor6b402qj2vzw1e1
+                    [image] => //resultlead.ru/mychat/upload/no-avatar.jpg
+                    [role] => user
+                )
+
+            [dialogs] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 39
+                            [user_id] => 34
+                            [partner_id] => 3
+                            [created] => 1496235524
+                            [closed] => 
+                            [last_message_body] => message from admin #114
+                            [first_message_created] => 1496235524
+                            [last_message_created] => 1496242138
+                            [messages_count] => 13
+                            [partner_user_id] => 34
+                            [partner_client_id] => f5kor6b402qj2vzw1e1
+                            [partner_name] => Undefined-f5kor6b402qj2vzw1e1
+                            [partner_avatar] => //resultlead.ru/mychat/upload/no-avatar.jpg
+                            [partner_role] => user
+                        )
+
+                )
+
+            [data] => Array
+                (
+                    [id] => 3
+                    [client_id] => 592870ac90e54
+                    [mycookid] => 7422236
+                    [name] => Генрих
+                    [image] => //resultlead.ru/mychat/upload/1495822508.jpeg
+                    [role] => admin
+                    [created] => 1495822508
+                )
+
+        )
+
+)

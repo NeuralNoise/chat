@@ -1,0 +1,22 @@
+[12-Jun-2017 07:59:47 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php:91
+Stack trace:
+#0 /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php(91): PDOStatement->execute()
+#1 /var/www/admin/data/www/resultlead.ru/mychat/class/Chat.php(113): DB->selectRow('mychat_dialogs', 'id = 130')
+#2 /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php(263): Chat->process(1, Array)
+#3 /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php(162): Server->onMessage(Resource id #20, '\x81\xA8\x9Ao\xB1\xE2\xE1M\xC5\x9B\xEA\n\x93\xD8\xB8...')
+#4 /var/www/admin/data/www/resultlead.ru/mychat/server/init.php(50): Server->start()
+#5 {main}
+  thrown in /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php on line 91
+[12-Jun-2017 16:36:19 America/New_York] PHP Warning:  socket_read(): unable to read from socket [104]: Connection reset by peer in /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php on line 131
+[13-Jun-2017 02:43:09 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php:91
+Stack trace:
+#0 /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php(91): PDOStatement->execute()
+#1 /var/www/admin/data/www/resultlead.ru/mychat/class/Chat.php(43): DB->selectRow('mychat_users', 'client_id="10yl...')
+#2 /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php(263): Chat->process(3, Array)
+#3 /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php(162): Server->onMessage(Resource id #38, '\x81\xE1\xF6\xA9U~\x8D\x8B!\x07\x86\xCCwD\xD4...')
+#4 /var/www/admin/data/www/resultlead.ru/mychat/server/init.php(50): Server->start()
+#5 {main}
+  thrown in /var/www/admin/data/www/resultlead.ru/mychat/class/DB.php on line 91
+[13-Jun-2017 04:10:53 America/New_York] PHP Notice:  Undefined offset: 5 in /var/www/admin/data/www/resultlead.ru/mychat/class/Chat.php on line 354
+[13-Jun-2017 04:10:53 America/New_York] PHP Notice:  Undefined offset: 5 in /var/www/admin/data/www/resultlead.ru/mychat/class/Chat.php on line 357
+[13-Jun-2017 04:17:06 America/New_York] PHP Warning:  socket_read(): unable to read from socket [110]: Connection timed out in /var/www/admin/data/www/resultlead.ru/mychat/class/Server.php on line 131
