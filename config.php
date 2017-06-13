@@ -1,19 +1,19 @@
 <?php
 
 $config['server']['db_host'] = 'localhost';
-$config['server']['db_user'] = 'root';
-$config['server']['db_pass'] = 'JTB92iMxmgbx6V49';
+$config['server']['db_user'] = '';
+$config['server']['db_pass'] = '';
 $config['server']['db_name'] = 'mychat';
 
-$config['server']['vkdata_url'] = 'http://new.wantresult.ru/newvktrackerru.php';
+$config['server']['vkdata_url'] = '';
 
 $config['server']['pidfile_on']                 = ABSPATH.'pid/on.pid';
 $config['server']['pidfile_off']                = ABSPATH.'pid/off.pid';
 $config['server']['logfile']                    = ABSPATH.'log/server_log.html';
 $config['server']['log']                        = ABSPATH.'log/log.txt';
 $config['server']['error_log']                  = ABSPATH.'log/error_log.txt';
-$config['server']['domain']                     = '//resultlead.ru';
-$config['server']['uploadUrl']                  = '//resultlead.ru/mychat/upload';
+$config['server']['domain']                     = '';
+$config['server']['uploadUrl']                  = '';
 $config['server']['host']                       = '127.0.0.1';
 $config['server']['port']                       = 8889;
 $config['server']['max_connections_from_ip']    = 7;
